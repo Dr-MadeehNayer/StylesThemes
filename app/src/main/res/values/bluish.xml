@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="lightblue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+        <item name="android:textColor">#efefef</item>
+        <item name="android:background">#006699</item>
+    </style>
+
+    <style name="lightblue.Big">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+    <color name="bg_color">#aabbff</color>
+
+    <style name="myTheme" parent="android:Theme.Light">
+        <item name="android:windowBackground">@color/bg_color</item>
+    </style>
+
+
+</resources>
